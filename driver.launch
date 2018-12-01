@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="robot_driver" name="motordriver" type="motordriver.py">
+	</node>
+	<node pkg="robot_driver" name="sensordriver" type="sensordriver.py">
+	</node>
+
+
+</launch>
