@@ -16,7 +16,7 @@ rospy.init_node('driver', anonymous=True)
 robotdriver=robotbasedriver(0.000875)
 scan_frequency=.3
 ROBOT_WIDTH=.237
-
+Fake-AWS-key=AM7BAKLUW5GCAAXBU74A
 def callback(data):
     rospy.loginfo("motorData Received")
     rightMotorSpeed=0
